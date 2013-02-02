@@ -30,6 +30,6 @@ myFoo onDealloc:^{
   //be careful of retain cycles
   //(google them)
 }
-  myFoo=nil; //ARC will call -dealloc //this will fire you're block //he will miss you bro
+  myFoo=nil; //ARC will call -dealloc //this will fire your block //he will miss you bro
 
 ```
