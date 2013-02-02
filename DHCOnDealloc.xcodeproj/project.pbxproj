@@ -10,14 +10,6 @@
 		180AEAC816BC5ADC0067DF77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180AEAC716BC5ADC0067DF77 /* UIKit.framework */; };
 		180AEACA16BC5ADC0067DF77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180AEAC916BC5ADC0067DF77 /* Foundation.framework */; };
 		180AEACC16BC5ADC0067DF77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180AEACB16BC5ADC0067DF77 /* CoreGraphics.framework */; };
-		180AEAD216BC5ADC0067DF77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 180AEAD016BC5ADC0067DF77 /* InfoPlist.strings */; };
-		180AEAD416BC5ADC0067DF77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180AEAD316BC5ADC0067DF77 /* main.m */; };
-		180AEAD816BC5ADC0067DF77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180AEAD716BC5ADC0067DF77 /* AppDelegate.m */; };
-		180AEADA16BC5ADC0067DF77 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 180AEAD916BC5ADC0067DF77 /* Default.png */; };
-		180AEADC16BC5ADC0067DF77 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180AEADB16BC5ADC0067DF77 /* Default@2x.png */; };
-		180AEADE16BC5ADC0067DF77 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180AEADD16BC5ADC0067DF77 /* Default-568h@2x.png */; };
-		180AEAE116BC5ADC0067DF77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180AEAE016BC5ADC0067DF77 /* ViewController.m */; };
-		180AEAE416BC5ADC0067DF77 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180AEAE216BC5ADC0067DF77 /* ViewController.xib */; };
 		180AEAEC16BC5ADD0067DF77 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180AEAEB16BC5ADD0067DF77 /* SenTestingKit.framework */; };
 		180AEAED16BC5ADD0067DF77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180AEAC716BC5ADC0067DF77 /* UIKit.framework */; };
 		180AEAEE16BC5ADD0067DF77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180AEAC916BC5ADC0067DF77 /* Foundation.framework */; };
@@ -25,6 +17,14 @@
 		180AEB0F16BC77120067DF77 /* DHCOnDeallocSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 180AEB0E16BC77120067DF77 /* DHCOnDeallocSpec.m */; };
 		180AEB1316BC7D210067DF77 /* DHCOnDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 180AEB1216BC7D210067DF77 /* DHCOnDealloc.m */; };
 		180AEB2416BC8AD00067DF77 /* NSObject+DHCOnDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 180AEB2316BC8AD00067DF77 /* NSObject+DHCOnDealloc.m */; };
+		1843829516BD3203003CE65B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843829416BD3203003CE65B /* ViewController.m */; };
+		1843829816BD320F003CE65B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843829716BD320F003CE65B /* AppDelegate.m */; };
+		1843829C16BD322D003CE65B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1843829916BD322D003CE65B /* Default-568h@2x.png */; };
+		1843829D16BD322D003CE65B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1843829A16BD322D003CE65B /* Default.png */; };
+		1843829E16BD322D003CE65B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1843829B16BD322D003CE65B /* Default@2x.png */; };
+		184382A016BD3235003CE65B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843829F16BD3235003CE65B /* main.m */; };
+		184382A216BD3240003CE65B /* DHCOnDealloc-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 184382A116BD3240003CE65B /* DHCOnDealloc-Info.plist */; };
+		184382A516BD3271003CE65B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 184382A316BD3271003CE65B /* InfoPlist.strings */; };
 		BE9165248F2648C6ACAB1384 /* libPods-DHCOnDeallocTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 018023A303744E53A8B189A8 /* libPods-DHCOnDeallocTests.a */; };
 /* End PBXBuildFile section */
 
@@ -44,18 +44,6 @@
 		180AEAC716BC5ADC0067DF77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		180AEAC916BC5ADC0067DF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		180AEACB16BC5ADC0067DF77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		180AEACF16BC5ADC0067DF77 /* DHCOnDealloc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DHCOnDealloc-Info.plist"; sourceTree = "<group>"; };
-		180AEAD116BC5ADC0067DF77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		180AEAD316BC5ADC0067DF77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		180AEAD516BC5ADC0067DF77 /* DHCOnDealloc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DHCOnDealloc-Prefix.pch"; sourceTree = "<group>"; };
-		180AEAD616BC5ADC0067DF77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		180AEAD716BC5ADC0067DF77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		180AEAD916BC5ADC0067DF77 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		180AEADB16BC5ADC0067DF77 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		180AEADD16BC5ADC0067DF77 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		180AEADF16BC5ADC0067DF77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		180AEAE016BC5ADC0067DF77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		180AEAE316BC5ADC0067DF77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		180AEAEA16BC5ADD0067DF77 /* DHCOnDeallocTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHCOnDeallocTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180AEAEB16BC5ADD0067DF77 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		180AEAF316BC5ADD0067DF77 /* DHCOnDeallocTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DHCOnDeallocTests-Info.plist"; sourceTree = "<group>"; };
@@ -65,6 +53,16 @@
 		180AEB1216BC7D210067DF77 /* DHCOnDealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHCOnDealloc.m; sourceTree = "<group>"; };
 		180AEB2216BC8AD00067DF77 /* NSObject+DHCOnDealloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DHCOnDealloc.h"; sourceTree = "<group>"; };
 		180AEB2316BC8AD00067DF77 /* NSObject+DHCOnDealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DHCOnDealloc.m"; sourceTree = "<group>"; };
+		1843829316BD3203003CE65B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = DHCOnDeallocDemo/ViewController.h; sourceTree = SOURCE_ROOT; };
+		1843829416BD3203003CE65B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = DHCOnDeallocDemo/ViewController.m; sourceTree = SOURCE_ROOT; };
+		1843829616BD320F003CE65B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DHCOnDeallocDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		1843829716BD320F003CE65B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DHCOnDeallocDemo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		1843829916BD322D003CE65B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "DHCOnDeallocDemo/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		1843829A16BD322D003CE65B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = DHCOnDeallocDemo/Default.png; sourceTree = SOURCE_ROOT; };
+		1843829B16BD322D003CE65B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "DHCOnDeallocDemo/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		1843829F16BD3235003CE65B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DHCOnDeallocDemo/main.m; sourceTree = SOURCE_ROOT; };
+		184382A116BD3240003CE65B /* DHCOnDealloc-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "DHCOnDealloc-Info.plist"; path = "DHCOnDeallocDemo/DHCOnDealloc-Info.plist"; sourceTree = SOURCE_ROOT; };
+		184382A416BD3271003CE65B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = DHCOnDeallocDemo/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		B7340449FC714621AECE15D9 /* Pods-DHCOnDeallocTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHCOnDeallocTests.xcconfig"; path = "Pods/Pods-DHCOnDeallocTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -96,7 +94,8 @@
 		180AEAB816BC5ADC0067DF77 = {
 			isa = PBXGroup;
 			children = (
-				180AEACD16BC5ADC0067DF77 /* DHCOnDealloc */,
+				180AEB2516BCA0CC0067DF77 /* DHCOnDealloc */,
+				180AEACD16BC5ADC0067DF77 /* DHCOnDeallocDemo */,
 				180AEAF116BC5ADD0067DF77 /* DHCOnDeallocTests */,
 				180AEAC616BC5ADC0067DF77 /* Frameworks */,
 				180AEAC416BC5ADC0067DF77 /* Products */,
@@ -125,30 +124,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		180AEACD16BC5ADC0067DF77 /* DHCOnDealloc */ = {
+		180AEACD16BC5ADC0067DF77 /* DHCOnDeallocDemo */ = {
 			isa = PBXGroup;
 			children = (
-				180AEAD616BC5ADC0067DF77 /* AppDelegate.h */,
-				180AEAD716BC5ADC0067DF77 /* AppDelegate.m */,
-				180AEADF16BC5ADC0067DF77 /* ViewController.h */,
-				180AEAE016BC5ADC0067DF77 /* ViewController.m */,
-				180AEAE216BC5ADC0067DF77 /* ViewController.xib */,
-				180AEB2516BCA0CC0067DF77 /* DHCOnDealloc */,
+				1843829316BD3203003CE65B /* ViewController.h */,
+				1843829416BD3203003CE65B /* ViewController.m */,
+				1843829616BD320F003CE65B /* AppDelegate.h */,
+				1843829716BD320F003CE65B /* AppDelegate.m */,
 				180AEACE16BC5ADC0067DF77 /* Supporting Files */,
 			);
+			name = DHCOnDeallocDemo;
 			path = DHCOnDealloc;
 			sourceTree = "<group>";
 		};
 		180AEACE16BC5ADC0067DF77 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				180AEACF16BC5ADC0067DF77 /* DHCOnDealloc-Info.plist */,
-				180AEAD016BC5ADC0067DF77 /* InfoPlist.strings */,
-				180AEAD316BC5ADC0067DF77 /* main.m */,
-				180AEAD516BC5ADC0067DF77 /* DHCOnDealloc-Prefix.pch */,
-				180AEAD916BC5ADC0067DF77 /* Default.png */,
-				180AEADB16BC5ADC0067DF77 /* Default@2x.png */,
-				180AEADD16BC5ADC0067DF77 /* Default-568h@2x.png */,
+				1843829916BD322D003CE65B /* Default-568h@2x.png */,
+				1843829A16BD322D003CE65B /* Default.png */,
+				1843829B16BD322D003CE65B /* Default@2x.png */,
+				1843829F16BD3235003CE65B /* main.m */,
+				184382A116BD3240003CE65B /* DHCOnDealloc-Info.plist */,
+				184382A316BD3271003CE65B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -179,7 +176,7 @@
 				180AEB1216BC7D210067DF77 /* DHCOnDealloc.m */,
 				180AEB1116BC7D210067DF77 /* DHCOnDealloc.h */,
 			);
-			name = DHCOnDealloc;
+			path = DHCOnDealloc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,11 +251,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180AEAD216BC5ADC0067DF77 /* InfoPlist.strings in Resources */,
-				180AEADA16BC5ADC0067DF77 /* Default.png in Resources */,
-				180AEADC16BC5ADC0067DF77 /* Default@2x.png in Resources */,
-				180AEADE16BC5ADC0067DF77 /* Default-568h@2x.png in Resources */,
-				180AEAE416BC5ADC0067DF77 /* ViewController.xib in Resources */,
+				1843829C16BD322D003CE65B /* Default-568h@2x.png in Resources */,
+				1843829D16BD322D003CE65B /* Default.png in Resources */,
+				1843829E16BD322D003CE65B /* Default@2x.png in Resources */,
+				184382A216BD3240003CE65B /* DHCOnDealloc-Info.plist in Resources */,
+				184382A516BD3271003CE65B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,11 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180AEAD416BC5ADC0067DF77 /* main.m in Sources */,
-				180AEAD816BC5ADC0067DF77 /* AppDelegate.m in Sources */,
-				180AEAE116BC5ADC0067DF77 /* ViewController.m in Sources */,
 				180AEB1316BC7D210067DF77 /* DHCOnDealloc.m in Sources */,
 				180AEB2416BC8AD00067DF77 /* NSObject+DHCOnDealloc.m in Sources */,
+				1843829516BD3203003CE65B /* ViewController.m in Sources */,
+				1843829816BD320F003CE65B /* AppDelegate.m in Sources */,
+				184382A016BD3235003CE65B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,26 +331,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		180AEAD016BC5ADC0067DF77 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				180AEAD116BC5ADC0067DF77 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		180AEAE216BC5ADC0067DF77 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				180AEAE316BC5ADC0067DF77 /* en */,
-			);
-			name = ViewController.xib;
-			sourceTree = "<group>";
-		};
 		180AEAF416BC5ADD0067DF77 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				180AEAF516BC5ADD0067DF77 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		184382A316BD3271003CE65B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184382A416BD3271003CE65B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -415,8 +404,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DHCOnDealloc/DHCOnDealloc-Prefix.pch";
-				INFOPLIST_FILE = "DHCOnDealloc/DHCOnDealloc-Info.plist";
+				GCC_PREFIX_HEADER = "DHCOnDeallocDemo/DHCOnDealloc-Prefix.pch";
+				INFOPLIST_FILE = "DHCOnDeallocDemo/DHCOnDealloc-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -426,8 +415,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DHCOnDealloc/DHCOnDealloc-Prefix.pch";
-				INFOPLIST_FILE = "DHCOnDealloc/DHCOnDealloc-Info.plist";
+				GCC_PREFIX_HEADER = "DHCOnDeallocDemo/DHCOnDealloc-Prefix.pch";
+				INFOPLIST_FILE = "DHCOnDeallocDemo/DHCOnDealloc-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -444,7 +433,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DHCOnDealloc/DHCOnDealloc-Prefix.pch";
+				GCC_PREFIX_HEADER = "DHCOnDeallocDemo/DHCOnDealloc-Prefix.pch";
 				INFOPLIST_FILE = "DHCOnDeallocTests/DHCOnDeallocTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -463,7 +452,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DHCOnDealloc/DHCOnDealloc-Prefix.pch";
+				GCC_PREFIX_HEADER = "DHCOnDeallocDemo/DHCOnDealloc-Prefix.pch";
 				INFOPLIST_FILE = "DHCOnDeallocTests/DHCOnDeallocTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
