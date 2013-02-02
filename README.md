@@ -24,12 +24,12 @@ to setup a block to execute before an object Foo is deallocated:
 ...
 
 Foo *myFoo=[[Foo alloc] init];
-myFoo onDealloc:^{
+[myFoo onDealloc:^{
   NSLog(@"I'll miss you bro");
   //and other more useful stuff
   //be careful of retain cycles
   //(google them)
-}
+}];
   myFoo=nil; //ARC will call -dealloc //this will fire your block //he will miss you bro
 
 ```
