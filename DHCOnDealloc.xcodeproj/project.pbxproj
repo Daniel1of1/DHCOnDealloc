@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180AEAC816BC5ADC0067DF77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180AEAC716BC5ADC0067DF77 /* UIKit.framework */; };
+		180AEACA16BC5ADC0067DF77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180AEAC916BC5ADC0067DF77 /* Foundation.framework */; };
+		180AEACC16BC5ADC0067DF77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180AEACB16BC5ADC0067DF77 /* CoreGraphics.framework */; };
+		180AEAD216BC5ADC0067DF77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 180AEAD016BC5ADC0067DF77 /* InfoPlist.strings */; };
+		180AEAD416BC5ADC0067DF77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180AEAD316BC5ADC0067DF77 /* main.m */; };
+		180AEAD816BC5ADC0067DF77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180AEAD716BC5ADC0067DF77 /* AppDelegate.m */; };
+		180AEADA16BC5ADC0067DF77 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 180AEAD916BC5ADC0067DF77 /* Default.png */; };
+		180AEADC16BC5ADC0067DF77 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180AEADB16BC5ADC0067DF77 /* Default@2x.png */; };
+		180AEADE16BC5ADC0067DF77 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180AEADD16BC5ADC0067DF77 /* Default-568h@2x.png */; };
+		180AEAE116BC5ADC0067DF77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180AEAE016BC5ADC0067DF77 /* ViewController.m */; };
+		180AEAE416BC5ADC0067DF77 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180AEAE216BC5ADC0067DF77 /* ViewController.xib */; };
+		180AEAEC16BC5ADD0067DF77 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180AEAEB16BC5ADD0067DF77 /* SenTestingKit.framework */; };
+		180AEAED16BC5ADD0067DF77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180AEAC716BC5ADC0067DF77 /* UIKit.framework */; };
+		180AEAEE16BC5ADD0067DF77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180AEAC916BC5ADC0067DF77 /* Foundation.framework */; };
+		180AEAF616BC5ADD0067DF77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 180AEAF416BC5ADD0067DF77 /* InfoPlist.strings */; };
+		180AEB0F16BC77120067DF77 /* DHCOnDeallocSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 180AEB0E16BC77120067DF77 /* DHCOnDeallocSpec.m */; };
+		180AEB1316BC7D210067DF77 /* DHCOnDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 180AEB1216BC7D210067DF77 /* DHCOnDealloc.m */; };
+		180AEB2416BC8AD00067DF77 /* NSObject+DHCOnDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 180AEB2316BC8AD00067DF77 /* NSObject+DHCOnDealloc.m */; };
+		BE9165248F2648C6ACAB1384 /* libPods-DHCOnDeallocTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 018023A303744E53A8B189A8 /* libPods-DHCOnDeallocTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180AEAEF16BC5ADD0067DF77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180AEABA16BC5ADC0067DF77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180AEAC216BC5ADC0067DF77;
+			remoteInfo = DHCOnDealloc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018023A303744E53A8B189A8 /* libPods-DHCOnDeallocTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DHCOnDeallocTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180AEAC316BC5ADC0067DF77 /* DHCOnDealloc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHCOnDealloc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180AEAC716BC5ADC0067DF77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		180AEAC916BC5ADC0067DF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		180AEACB16BC5ADC0067DF77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		180AEACF16BC5ADC0067DF77 /* DHCOnDealloc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DHCOnDealloc-Info.plist"; sourceTree = "<group>"; };
+		180AEAD116BC5ADC0067DF77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		180AEAD316BC5ADC0067DF77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180AEAD516BC5ADC0067DF77 /* DHCOnDealloc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DHCOnDealloc-Prefix.pch"; sourceTree = "<group>"; };
+		180AEAD616BC5ADC0067DF77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		180AEAD716BC5ADC0067DF77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		180AEAD916BC5ADC0067DF77 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		180AEADB16BC5ADC0067DF77 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		180AEADD16BC5ADC0067DF77 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		180AEADF16BC5ADC0067DF77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		180AEAE016BC5ADC0067DF77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		180AEAE316BC5ADC0067DF77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		180AEAEA16BC5ADD0067DF77 /* DHCOnDeallocTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHCOnDeallocTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180AEAEB16BC5ADD0067DF77 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		180AEAF316BC5ADD0067DF77 /* DHCOnDeallocTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DHCOnDeallocTests-Info.plist"; sourceTree = "<group>"; };
+		180AEAF516BC5ADD0067DF77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		180AEB0E16BC77120067DF77 /* DHCOnDeallocSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHCOnDeallocSpec.m; sourceTree = "<group>"; };
+		180AEB1116BC7D210067DF77 /* DHCOnDealloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHCOnDealloc.h; sourceTree = "<group>"; };
+		180AEB1216BC7D210067DF77 /* DHCOnDealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHCOnDealloc.m; sourceTree = "<group>"; };
+		180AEB2216BC8AD00067DF77 /* NSObject+DHCOnDealloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DHCOnDealloc.h"; sourceTree = "<group>"; };
+		180AEB2316BC8AD00067DF77 /* NSObject+DHCOnDealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DHCOnDealloc.m"; sourceTree = "<group>"; };
+		B7340449FC714621AECE15D9 /* Pods-DHCOnDeallocTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHCOnDeallocTests.xcconfig"; path = "Pods/Pods-DHCOnDeallocTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180AEAC016BC5ADC0067DF77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180AEAC816BC5ADC0067DF77 /* UIKit.framework in Frameworks */,
+				180AEACA16BC5ADC0067DF77 /* Foundation.framework in Frameworks */,
+				180AEACC16BC5ADC0067DF77 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180AEAE616BC5ADD0067DF77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180AEAEC16BC5ADD0067DF77 /* SenTestingKit.framework in Frameworks */,
+				180AEAED16BC5ADD0067DF77 /* UIKit.framework in Frameworks */,
+				180AEAEE16BC5ADD0067DF77 /* Foundation.framework in Frameworks */,
+				BE9165248F2648C6ACAB1384 /* libPods-DHCOnDeallocTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180AEAB816BC5ADC0067DF77 = {
+			isa = PBXGroup;
+			children = (
+				180AEACD16BC5ADC0067DF77 /* DHCOnDealloc */,
+				180AEAF116BC5ADD0067DF77 /* DHCOnDeallocTests */,
+				180AEAC616BC5ADC0067DF77 /* Frameworks */,
+				180AEAC416BC5ADC0067DF77 /* Products */,
+				B7340449FC714621AECE15D9 /* Pods-DHCOnDeallocTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		180AEAC416BC5ADC0067DF77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180AEAC316BC5ADC0067DF77 /* DHCOnDealloc.app */,
+				180AEAEA16BC5ADD0067DF77 /* DHCOnDeallocTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180AEAC616BC5ADC0067DF77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				180AEAC716BC5ADC0067DF77 /* UIKit.framework */,
+				180AEAC916BC5ADC0067DF77 /* Foundation.framework */,
+				180AEACB16BC5ADC0067DF77 /* CoreGraphics.framework */,
+				180AEAEB16BC5ADD0067DF77 /* SenTestingKit.framework */,
+				018023A303744E53A8B189A8 /* libPods-DHCOnDeallocTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		180AEACD16BC5ADC0067DF77 /* DHCOnDealloc */ = {
+			isa = PBXGroup;
+			children = (
+				180AEAD616BC5ADC0067DF77 /* AppDelegate.h */,
+				180AEAD716BC5ADC0067DF77 /* AppDelegate.m */,
+				180AEADF16BC5ADC0067DF77 /* ViewController.h */,
+				180AEAE016BC5ADC0067DF77 /* ViewController.m */,
+				180AEAE216BC5ADC0067DF77 /* ViewController.xib */,
+				180AEB2516BCA0CC0067DF77 /* DHCOnDealloc */,
+				180AEACE16BC5ADC0067DF77 /* Supporting Files */,
+			);
+			path = DHCOnDealloc;
+			sourceTree = "<group>";
+		};
+		180AEACE16BC5ADC0067DF77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180AEACF16BC5ADC0067DF77 /* DHCOnDealloc-Info.plist */,
+				180AEAD016BC5ADC0067DF77 /* InfoPlist.strings */,
+				180AEAD316BC5ADC0067DF77 /* main.m */,
+				180AEAD516BC5ADC0067DF77 /* DHCOnDealloc-Prefix.pch */,
+				180AEAD916BC5ADC0067DF77 /* Default.png */,
+				180AEADB16BC5ADC0067DF77 /* Default@2x.png */,
+				180AEADD16BC5ADC0067DF77 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180AEAF116BC5ADD0067DF77 /* DHCOnDeallocTests */ = {
+			isa = PBXGroup;
+			children = (
+				180AEAF216BC5ADD0067DF77 /* Supporting Files */,
+				180AEB0E16BC77120067DF77 /* DHCOnDeallocSpec.m */,
+			);
+			path = DHCOnDeallocTests;
+			sourceTree = "<group>";
+		};
+		180AEAF216BC5ADD0067DF77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180AEAF316BC5ADD0067DF77 /* DHCOnDeallocTests-Info.plist */,
+				180AEAF416BC5ADD0067DF77 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180AEB2516BCA0CC0067DF77 /* DHCOnDealloc */ = {
+			isa = PBXGroup;
+			children = (
+				180AEB2316BC8AD00067DF77 /* NSObject+DHCOnDealloc.m */,
+				180AEB2216BC8AD00067DF77 /* NSObject+DHCOnDealloc.h */,
+				180AEB1216BC7D210067DF77 /* DHCOnDealloc.m */,
+				180AEB1116BC7D210067DF77 /* DHCOnDealloc.h */,
+			);
+			name = DHCOnDealloc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180AEAC216BC5ADC0067DF77 /* DHCOnDealloc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180AEAFC16BC5ADD0067DF77 /* Build configuration list for PBXNativeTarget "DHCOnDealloc" */;
+			buildPhases = (
+				180AEABF16BC5ADC0067DF77 /* Sources */,
+				180AEAC016BC5ADC0067DF77 /* Frameworks */,
+				180AEAC116BC5ADC0067DF77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DHCOnDealloc;
+			productName = DHCOnDealloc;
+			productReference = 180AEAC316BC5ADC0067DF77 /* DHCOnDealloc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180AEAE916BC5ADD0067DF77 /* DHCOnDeallocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180AEAFF16BC5ADD0067DF77 /* Build configuration list for PBXNativeTarget "DHCOnDeallocTests" */;
+			buildPhases = (
+				180AEAE516BC5ADD0067DF77 /* Sources */,
+				180AEAE616BC5ADD0067DF77 /* Frameworks */,
+				180AEAE716BC5ADD0067DF77 /* Resources */,
+				180AEAE816BC5ADD0067DF77 /* ShellScript */,
+				BA661AE1BECF4D6FB31EB987 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180AEAF016BC5ADD0067DF77 /* PBXTargetDependency */,
+			);
+			name = DHCOnDeallocTests;
+			productName = DHCOnDeallocTests;
+			productReference = 180AEAEA16BC5ADD0067DF77 /* DHCOnDeallocTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180AEABA16BC5ADC0067DF77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = confidenceJuice;
+			};
+			buildConfigurationList = 180AEABD16BC5ADC0067DF77 /* Build configuration list for PBXProject "DHCOnDealloc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 180AEAB816BC5ADC0067DF77;
+			productRefGroup = 180AEAC416BC5ADC0067DF77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180AEAC216BC5ADC0067DF77 /* DHCOnDealloc */,
+				180AEAE916BC5ADD0067DF77 /* DHCOnDeallocTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180AEAC116BC5ADC0067DF77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180AEAD216BC5ADC0067DF77 /* InfoPlist.strings in Resources */,
+				180AEADA16BC5ADC0067DF77 /* Default.png in Resources */,
+				180AEADC16BC5ADC0067DF77 /* Default@2x.png in Resources */,
+				180AEADE16BC5ADC0067DF77 /* Default-568h@2x.png in Resources */,
+				180AEAE416BC5ADC0067DF77 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180AEAE716BC5ADD0067DF77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180AEAF616BC5ADD0067DF77 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		180AEAE816BC5ADD0067DF77 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		BA661AE1BECF4D6FB31EB987 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-DHCOnDeallocTests-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180AEABF16BC5ADC0067DF77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180AEAD416BC5ADC0067DF77 /* main.m in Sources */,
+				180AEAD816BC5ADC0067DF77 /* AppDelegate.m in Sources */,
+				180AEAE116BC5ADC0067DF77 /* ViewController.m in Sources */,
+				180AEB1316BC7D210067DF77 /* DHCOnDealloc.m in Sources */,
+				180AEB2416BC8AD00067DF77 /* NSObject+DHCOnDealloc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180AEAE516BC5ADD0067DF77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180AEB0F16BC77120067DF77 /* DHCOnDeallocSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180AEAF016BC5ADD0067DF77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180AEAC216BC5ADC0067DF77 /* DHCOnDealloc */;
+			targetProxy = 180AEAEF16BC5ADD0067DF77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180AEAD016BC5ADC0067DF77 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180AEAD116BC5ADC0067DF77 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		180AEAE216BC5ADC0067DF77 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180AEAE316BC5ADC0067DF77 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		180AEAF416BC5ADD0067DF77 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180AEAF516BC5ADD0067DF77 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180AEAFA16BC5ADD0067DF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		180AEAFB16BC5ADD0067DF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180AEAFD16BC5ADD0067DF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DHCOnDealloc/DHCOnDealloc-Prefix.pch";
+				INFOPLIST_FILE = "DHCOnDealloc/DHCOnDealloc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		180AEAFE16BC5ADD0067DF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DHCOnDealloc/DHCOnDealloc-Prefix.pch";
+				INFOPLIST_FILE = "DHCOnDealloc/DHCOnDealloc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		180AEB0016BC5ADD0067DF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7340449FC714621AECE15D9 /* Pods-DHCOnDeallocTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DHCOnDealloc.app/DHCOnDealloc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DHCOnDealloc/DHCOnDealloc-Prefix.pch";
+				INFOPLIST_FILE = "DHCOnDeallocTests/DHCOnDeallocTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		180AEB0116BC5ADD0067DF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7340449FC714621AECE15D9 /* Pods-DHCOnDeallocTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DHCOnDealloc.app/DHCOnDealloc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DHCOnDealloc/DHCOnDealloc-Prefix.pch";
+				INFOPLIST_FILE = "DHCOnDeallocTests/DHCOnDeallocTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180AEABD16BC5ADC0067DF77 /* Build configuration list for PBXProject "DHCOnDealloc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180AEAFA16BC5ADD0067DF77 /* Debug */,
+				180AEAFB16BC5ADD0067DF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180AEAFC16BC5ADD0067DF77 /* Build configuration list for PBXNativeTarget "DHCOnDealloc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180AEAFD16BC5ADD0067DF77 /* Debug */,
+				180AEAFE16BC5ADD0067DF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180AEAFF16BC5ADD0067DF77 /* Build configuration list for PBXNativeTarget "DHCOnDeallocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180AEB0016BC5ADD0067DF77 /* Debug */,
+				180AEB0116BC5ADD0067DF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180AEABA16BC5ADC0067DF77 /* Project object */;
+}
