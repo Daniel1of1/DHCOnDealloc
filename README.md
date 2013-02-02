@@ -3,6 +3,8 @@ DHCOnDealloc
 
 A simple category that allows you set a block to fire when an object is dealloced.
 
+*N.B:* fires **After** object has been released! (possible to do.. make it fire before)
+
 ## Instalation
 
 ###Cocoapods (preferred)
