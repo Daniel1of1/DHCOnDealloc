@@ -12,7 +12,7 @@ pod "DHCOnDealloc", "~>0.1"
 ```
   
 ###Manual
-copy contents of DHCOnDealloc to your project
+copy contents of `DHCOnDealloc` to your project
 
 ##Usage
 
