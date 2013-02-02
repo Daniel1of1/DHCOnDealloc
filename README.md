@@ -19,15 +19,17 @@ copy contents of `DHCOnDealloc` to your project
 to setup a block to execute before an object Foo is deallocated:
 
 ```objective-c  
-#import "NSObject+DHCOnDealloc.h"
+#import "NSObject+DHCOnDealloc.h"  
 
-  Foo *myFoo=[[Foo alloc] init];
-  myFoo onDealloc:^{
-    NSLog(@"I'll miss you bro");
-    //and other more useful stuff
-    //be careful of retain cycles
-    //(google them)
-  }
-  myFoo=nil; //ARC will call -dealloc //this will fire you're block
+...
+
+Foo *myFoo=[[Foo alloc] init];
+myFoo onDealloc:^{
+  NSLog(@"I'll miss you bro");
+  //and other more useful stuff
+  //be careful of retain cycles
+  //(google them)
+}
+  myFoo=nil; //ARC will call -dealloc //this will fire you're block //he will miss you bro
 
 ```
