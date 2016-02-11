@@ -7,7 +7,7 @@ A simple category that allows you set a block to fire when an object is dealloce
 
 ## Instalation
 
-###Cocoapods (preferred)
+###CocoaPods (preferred)
 
 ```ruby
 pod "DHCOnDealloc", "~>0.1"
